@@ -1,0 +1,20 @@
+plugins {
+    id 'java'
+}
+
+group 'selenium.cucumber.base'
+version '0.1'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'junit:junit:4.13'
+    testImplementation 'org.seleniumhq.selenium:selenium-java:4.0.0-alpha-6'
+    testImplementation 'io.cucumber:cucumber-java8:6.1.1'
+    testImplementation 'io.cucumber:cucumber-picocontainer:6.1.1'
+    testImplementation 'io.cucumber:cucumber-junit:6.1.1'
+    testImplementation 'io.github.bonigarcia:webdrivermanager:4.0.0'
+
+}
