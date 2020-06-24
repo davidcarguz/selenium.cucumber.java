@@ -18,3 +18,8 @@ dependencies {
     testImplementation 'io.github.bonigarcia:webdrivermanager:4.0.0'
 
 }
+
+test {
+    testLogging.showStandardStreams(true)
+    systemProperties System.getProperties()
+}
