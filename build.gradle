@@ -16,6 +16,7 @@ dependencies {
     testImplementation 'io.cucumber:cucumber-picocontainer:6.1.1'
     testImplementation 'io.cucumber:cucumber-junit:6.1.1'
     testImplementation 'io.github.bonigarcia:webdrivermanager:4.0.0'
+    testImplementation 'com.aventstack:extentreports:4.1.6'
 
 }
 
