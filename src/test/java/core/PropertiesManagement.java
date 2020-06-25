@@ -5,9 +5,11 @@ import java.util.Properties;
 
 public class PropertiesManagement {
 
-    InputStream inputStream;
     private static final String FILE_PATH = "./src/test/resources/configurations/configuration.properties";
 
+    /**
+     * Takes the properties from configuration.properties file and set them as system properties.
+     */
     public void setPropertiesFromFile(){
         try{
             File propertiesFile = new File(FILE_PATH);
