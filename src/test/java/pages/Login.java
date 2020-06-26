@@ -7,8 +7,6 @@ import org.openqa.selenium.support.How;
 
 public class Login extends WebDriverFactory {
 
-    WebDriverFactory wf;
-
     @FindBy(how = How.ID, using = "txtUsername")
     private WebElement edt_Username;
     @FindBy(how = How.ID, using = "txtPassword")
