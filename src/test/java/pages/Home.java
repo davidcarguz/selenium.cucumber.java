@@ -5,6 +5,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 
+/**
+ * Home ui methods.
+ */
 public class Home extends WebDriverFactory {
 
     @FindBy(how = How.TAG_NAME, using = "h1")
