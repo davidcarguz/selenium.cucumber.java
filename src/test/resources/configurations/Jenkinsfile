@@ -1,0 +1,18 @@
+pipeline {
+    agent any
+    options {
+        timeout(time: 2, unit: 'MINUTES')
+    }
+    stages {
+        stage('Run tests with Gradle') {
+            steps {
+                gradle test
+            }
+        }
+        stage('Finalize Run') {
+            steps{
+                echo "El pipeline termina aca"
+            }
+        }
+    }
+}
