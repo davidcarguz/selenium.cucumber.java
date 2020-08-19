@@ -6,12 +6,12 @@ pipeline {
     stages {
         stage('Run tests with Gradle') {
             steps {
-                gradle test
+                cmd_exec('gradle test')
             }
         }
         stage('Finalize Run') {
             steps{
-                echo "El pipeline termina aca"
+                cmd_exec('echo "El pipeline termina aca"')
             }
         }
     }
