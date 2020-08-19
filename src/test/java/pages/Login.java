@@ -6,7 +6,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 
 /**
- * Login methods.
+ * Login ui methods.
  */
 public class Login extends WebDriverFactory {
 
