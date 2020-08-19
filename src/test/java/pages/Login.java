@@ -5,6 +5,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 
+/**
+ * Login methods.
+ */
 public class Login extends WebDriverFactory {
 
     @FindBy(how = How.ID, using = "txtUsername")
