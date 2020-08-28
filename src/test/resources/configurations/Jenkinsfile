@@ -6,12 +6,12 @@ pipeline {
     stages {
         stage('Run tests with Gradle') {
             steps {
-                cmd_exec('gradle test')
+                bat label: '', script: 'gradle test'
             }
         }
         stage('Finalize Run') {
             steps{
-                cmd_exec('echo "El pipeline termina aca"')
+                bat label: '', script: 'echo "El pipeline termina aca"'
             }
         }
     }
